@@ -9,8 +9,8 @@ class ChromeHeadlessBrowser {
   constructor (options) {
     this.pageLoadDelay = options.pageLoadDelay
     const cacheEnabled = options.cacheEnabled || false
-    const deviceWidth = options.deviceWidth || 800
-    const deviceHeight = options.deviceHeight || 600
+    const deviceWidth = options.deviceWidth || 1600
+    const deviceHeight = options.deviceHeight || 900
     const userAgent = options.userAgent || 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
 
     // constructors cannot handle asynchronous
